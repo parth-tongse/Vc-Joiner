@@ -1,0 +1,7 @@
+{
+  "name": "vc-joiner",
+  "private": true,
+  "scripts": {
+    "build": "python -m compileall -q backend run.py"
+  }
+}
