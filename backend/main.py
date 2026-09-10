@@ -22,6 +22,10 @@ frontend_dir.mkdir(parents=True, exist_ok=True)
 
 app.mount("/static", StaticFiles(directory=str(frontend_dir)), name="static")
 
+@app.get("/health")
+async def health_check():
+    return {"status": "ok"}
+
 oauth2_scheme = OAuth2PasswordBearer(tokenUrl="login")
 
 def get_current_user(token: str = Depends(oauth2_scheme)):
