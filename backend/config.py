@@ -24,6 +24,8 @@ def load_config():
     env_pass = os.environ.get("ADMIN_PASS")
     if env_user and env_pass:
         return {"admin_user": env_user, "admin_pass": env_pass}
+    if os.environ.get("RAILWAY_ENVIRONMENT") and not CONFIG_FILE.exists():
+        raise RuntimeError("ADMIN_USER and ADMIN_PASS must be configured in Railway")
 
     if not CONFIG_FILE.exists():
         default_config = {
