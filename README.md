@@ -235,6 +235,6 @@ PORT=8000
 MIT — use freely, no warranty.
 
 ## Developer
-Offical Dev: NARUTO
+Offical Dev: PARTH
 Discord Server: https://dscord.gg/dostana
 Discrod Username: narutogaming_ff_
