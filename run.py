@@ -1,6 +1,6 @@
-"""Start the Voicecord web dashboard. Dev: SUBHAN"""
-"""Start the Voicecord web dashboard. Dev: SUBHAN"""
-"""Start the Voicecord web dashboard. Dev: SUBHAN"""
+"""Start the Voicecord web dashboard. Dev: PARTH"""
+"""Start the Voicecord web dashboard. Dev: PARTH"""
+"""Start the Voicecord web dashboard. Dev: PARTH"""
 import os
 import uvicorn
 
