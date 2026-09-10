@@ -235,7 +235,6 @@ PORT=8000
 MIT — use freely, no warranty.
 
 ## Developer
-Offical Dev: SUBHAN
-Discord Server: https://dsc.gg/hexacordoffical
-Discrod Username: .subhan.exe
-Discord ID: 1262027340129505290
+Offical Dev: NARUTO
+Discord Server: https://dscord.gg/dostana
+Discrod Username: narutogaming_ff_
